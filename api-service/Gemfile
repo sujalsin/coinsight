@@ -1,0 +1,23 @@
+source 'https://rubygems.org'
+
+ruby '3.2.2'
+
+gem 'rails', '~> 7.0.0'
+gem 'puma', '~> 6.0'
+gem 'pg', '~> 1.5'
+gem 'jwt', '~> 2.7'
+gem 'bcrypt', '~> 3.1.7'
+gem 'rack-cors'
+gem 'dotenv-rails'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'pry-rails'
+end
+
+group :development do
+  gem 'listen'
+  gem 'spring'
+end

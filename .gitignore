@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+/api-service/vendor/
+/web-dashboard/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/web-dashboard/build/
+/web-dashboard/dist/
+/mobile-app/build/
+/mobile-app/dist/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Ruby specific
+/api-service/.bundle/
+/api-service/log/*
+/api-service/tmp/*
+!/api-service/log/.keep
+!/api-service/tmp/.keep
+
+# Go specific
+/price-service/vendor/
+/recommendation-engine/vendor/
+
+# Testing
+/coverage
+.nyc_output
+
+# Mobile specific
+/mobile-app/ios/Pods/
+/mobile-app/android/build/
+/mobile-app/android/app/build/
+/mobile-app/android/gradle/
+/mobile-app/android/.gradle/
+/mobile-app/android/local.properties
+/mobile-app/ios/build/
